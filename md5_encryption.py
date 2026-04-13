@@ -68,7 +68,4 @@ def main():
     print(md5(message))
 
 if __name__ == "__main__":
-    
-    k = abs(math.sin(1)) * 2**32
-    intK = int(k) & 0xFFFFFFFF
-    print(f"K[0] = {intK:#0{10}x}")
+    main()
